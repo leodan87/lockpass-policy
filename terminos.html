@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockPass - Términos y Condiciones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .section ul {
+            padding-left: 30px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .warning strong {
+            color: #856404;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            background: #e8f5e9;
+            border: 1px solid #4caf50;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-info strong {
+            color: #2e7d32;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📜 LockPass</h1>
+            <p>Términos y Condiciones de Uso</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Última actualización: 20 de noviembre de 2025</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>1. Aceptación de los Términos</h2>
+                <p>
+                    Al descargar, instalar o utilizar <strong>LockPass</strong>, aceptas estar sujeto a estos 
+                    Términos y Condiciones. Si no estás de acuerdo con alguna parte de estos términos, 
+                    no debes utilizar la aplicación.
+                </p>
+                <div class="highlight">
+                    <strong>📌 Importante:</strong> El uso continuado de LockPass implica la aceptación 
+                    de estos términos y cualquier modificación futura.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>2. Descripción del Servicio</h2>
+                <p>
+                    LockPass es un administrador de contraseñas diseñado para ayudarte a almacenar y 
+                    gestionar tus credenciales de forma segura mediante cifrado de extremo a extremo.
+                </p>
+                <h3>2.1 Funcionalidades Principales</h3>
+                <ul>
+                    <li>Almacenamiento local y en la nube de contraseñas cifradas</li>
+                    <li>Generador de contraseñas seguras</li>
+                    <li>Autenticación biométrica (huella dactilar, Face ID)</li>
+                    <li>Sincronización multiplataforma vía Firebase</li>
+                    <li>Cifrado AES-256-GCM de grado militar</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. Responsabilidades del Usuario</h2>
+                
+                <h3>3.1 Custodia de la Contraseña Maestra</h3>
+                <div class="warning">
+                    <strong>⚠️ ADVERTENCIA CRÍTICA:</strong> Tu contraseña maestra es la ÚNICA clave para 
+                    acceder a tus datos. <strong>NO podemos recuperarla si la olvidas</strong>. Es tu 
+                    responsabilidad exclusiva recordarla y mantenerla segura.
+                </div>
+                <ul>
+                    <li>✅ Debes crear una contraseña maestra fuerte y única</li>
+                    <li>✅ Nunca compartas tu contraseña maestra con nadie</li>
+                    <li>✅ Guarda una copia de seguridad de tu contraseña en un lugar seguro físico</li>
+                    <li>❌ NO uses la misma contraseña que utilizas en otros servicios</li>
+                </ul>
+
+                <h3>3.2 Uso Apropiado</h3>
+                <p>Te comprometes a:</p>
+                <ul>
+                    <li>Utilizar LockPass únicamente para gestionar tus propias contraseñas</li>
+                    <li>No intentar descifrar, descompilar o realizar ingeniería inversa de la aplicación</li>
+                    <li>No usar la app para actividades ilegales o no autorizadas</li>
+                    <li>Mantener actualizada la aplicación a su última versión</li>
+                    <li>No compartir tu cuenta con terceros</li>
+                </ul>
+
+                <h3>3.3 Seguridad del Dispositivo</h3>
+                <ul>
+                    <li>Mantener tu dispositivo protegido con contraseña/PIN/biometría</li>
+                    <li>No rootear/jailbreak tu dispositivo (reduce la seguridad)</li>
+                    <li>Mantener tu sistema operativo actualizado</li>
+                    <li>No instalar aplicaciones de fuentes no confiables</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. Limitación de Responsabilidad</h2>
+                
+                <h3>4.1 Sin Garantías Absolutas</h3>
+                <p>
+                    LockPass se proporciona "TAL CUAL" y "SEGÚN DISPONIBILIDAD". Aunque implementamos 
+                    las mejores prácticas de seguridad, <strong>no podemos garantizar</strong>:
+                </p>
+                <ul>
+                    <li>Disponibilidad ininterrumpida del servicio (100% uptime)</li>
+                    <li>Funcionamiento libre de errores en todos los dispositivos</li>
+                    <li>Protección absoluta contra ataques sofisticados de día cero</li>
+                    <li>Compatibilidad con todas las versiones de Android/iOS</li>
+                </ul>
+
+                <h3>4.2 Exención de Responsabilidad</h3>
+                <p>El desarrollador NO será responsable por:</p>
+                <ul>
+                    <li>❌ Pérdida de datos debido a olvido de contraseña maestra</li>
+                    <li>❌ Pérdida de datos por fallas de Firebase o servicios de terceros</li>
+                    <li>❌ Daños causados por uso indebido de la aplicación</li>
+                    <li>❌ Acceso no autorizado debido a compromiso del dispositivo del usuario</li>
+                    <li>❌ Problemas derivados de versiones modificadas o pirateadas de la app</li>
+                    <li>❌ Incompatibilidades con dispositivos rooteados/jailbroken</li>
+                </ul>
+
+                <h3>4.3 Límite de Daños</h3>
+                <p>
+                    En ningún caso la responsabilidad total del desarrollador excederá el monto pagado 
+                    por el usuario por el uso de LockPass (actualmente: <strong>$0, app gratuita</strong>).
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>5. Propiedad Intelectual</h2>
+                <p>
+                    Todos los derechos de autor, marcas registradas y otros derechos de propiedad 
+                    intelectual relacionados con LockPass son propiedad exclusiva del desarrollador.
+                </p>
+                <ul>
+                    <li>El código fuente de LockPass es <strong>propietario y privado</strong></li>
+                    <li>El nombre "LockPass" y el logo 🔐 son marcas del desarrollador</li>
+                    <li>No puedes copiar, modificar o distribuir la aplicación sin autorización</li>
+                    <li>No puedes crear aplicaciones derivadas basadas en LockPass</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>6. Modificaciones del Servicio</h2>
+                <p>Nos reservamos el derecho de:</p>
+                <ul>
+                    <li>Modificar, suspender o descontinuar cualquier funcionalidad en cualquier momento</li>
+                    <li>Actualizar estos Términos y Condiciones (se notificará a los usuarios)</li>
+                    <li>Cambiar los requisitos técnicos de la aplicación</li>
+                    <li>Implementar nuevas funcionalidades premium (de pago) en el futuro</li>
+                </ul>
+                <div class="warning">
+                    <strong>📢 Notificaciones:</strong> Los cambios significativos se comunicarán 
+                    mediante email, notificación push o actualización de esta página.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>7. Terminación de Cuenta</h2>
+                
+                <h3>7.1 Terminación por el Usuario</h3>
+                <p>
+                    Puedes eliminar tu cuenta en cualquier momento desde 
+                    <strong>Configuración → Mi Cuenta → Eliminar Cuenta</strong>.
+                </p>
+                <div class="warning">
+                    <strong>⚠️ ADVERTENCIA:</strong> La eliminación de cuenta es <strong>PERMANENTE 
+                    e IRREVERSIBLE</strong>. Todos tus datos se borrarán inmediatamente y no podrán 
+                    ser recuperados.
+                </div>
+
+                <h3>7.2 Terminación por el Desarrollador</h3>
+                <p>Podemos suspender o eliminar tu cuenta si:</p>
+                <ul>
+                    <li>Violas estos Términos y Condiciones</li>
+                    <li>Usas la app para actividades ilegales</li>
+                    <li>Intentas comprometer la seguridad del servicio</li>
+                    <li>Realizas ingeniería inversa o modificas la aplicación</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>8. Servicios de Terceros</h2>
+                <p>LockPass utiliza los siguientes servicios externos, cada uno con sus propios términos:</p>
+                <ul>
+                    <li>
+                        <strong>Firebase (Google):</strong> 
+                        <a href="https://firebase.google.com/terms" target="_blank" style="color: #667eea;">
+                            Términos de Firebase
+                        </a>
+                    </li>
+                    <li>
+                        <strong>Google Play Services:</strong> Sujeto a los 
+                        <a href="https://policies.google.com/terms" target="_blank" style="color: #667eea;">
+                            Términos de Google
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Al usar LockPass, también aceptas los términos de estos servicios de terceros.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>9. Privacidad y Protección de Datos</h2>
+                <p>
+                    El manejo de tus datos personales se rige por nuestra 
+                    <a href="https://leodan87.github.io/lockpass-policy" target="_blank" style="color: #667eea; font-weight: bold;">
+                        Política de Privacidad
+                    </a>, que forma parte integral de estos términos.
+                </p>
+                <div class="highlight">
+                    <strong>🔒 Compromiso de Privacidad:</strong> Tus contraseñas están cifradas de 
+                    extremo a extremo. Ni el desarrollador, ni Firebase, ni ningún tercero puede 
+                    acceder a ellas en texto plano.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>10. Jurisdicción y Ley Aplicable</h2>
+                <p>
+                    Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes 
+                    de tu país de residencia. Cualquier disputa relacionada con estos términos se 
+                    resolverá mediante arbitraje o en los tribunales competentes de tu jurisdicción.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>11. Divisibilidad</h2>
+                <p>
+                    Si alguna disposición de estos términos se considera inválida o inaplicable, 
+                    las disposiciones restantes continuarán en pleno vigor y efecto.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>12. Contacto y Soporte</h2>
+                <p>
+                    Si tienes preguntas sobre estos Términos y Condiciones o necesitas soporte técnico:
+                </p>
+                <div class="contact-info">
+                    <strong>📧 Email de Soporte:</strong> 
+                    <a href="mailto:leogarcia.lsgg@pm.me" style="color: #2e7d32;">
+                        leogarcia.lsgg@pm.me
+                    </a><br>
+                    <strong>📱 Desde la app:</strong> Configuración → Ayuda → Contactar Soporte<br>
+                    <strong>🌐 Políticas:</strong> 
+                    <a href="https://leodan87.github.io/lockpass-policy" target="_blank" style="color: #2e7d32;">
+                        Privacidad
+                    </a> | 
+                    <a href="https://leodan87.github.io/lockpass-policy/terminos.html" target="_blank" style="color: #2e7d32;">
+                        Términos
+                    </a><br>
+                    <strong>⏰ Tiempo de respuesta:</strong> Máximo 48 horas
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>13. Aceptación Final</h2>
+                <div class="highlight">
+                    <p style="margin: 0;">
+                        <strong>Al utilizar LockPass, confirmas que:</strong>
+                    </p>
+                    <ul style="margin-top: 10px; margin-bottom: 0;">
+                        <li>✅ Has leído y comprendido estos Términos y Condiciones</li>
+                        <li>✅ Aceptas estar legalmente vinculado por estos términos</li>
+                        <li>✅ Eres mayor de 13 años</li>
+                        <li>✅ Tienes la capacidad legal para aceptar estos términos</li>
+                        <li>✅ Entiendes que olvidar tu contraseña maestra resultará en pérdida de datos</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p><strong>LockPass - Tu Seguridad, Nuestra Prioridad 🔐</strong></p>
+            <p>© 2025 LockPass. Todos los derechos reservados.</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                Desarrollado por <strong>leodan87</strong> | 
+                <a href="https://leodan87.github.io/lockpass-policy" target="_blank" style="color: #667eea;">
+                    Política de Privacidad
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
